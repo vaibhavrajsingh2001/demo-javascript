@@ -8,7 +8,7 @@ function isEven(x){
 function isNumber(num){
     let x = undefined
     x= num % 2
-    if(false){
+    if(false)           {
         console.log("Number is false")
     } else if (!!x) {
         console.log(`Number: ${x}`)
@@ -41,6 +41,21 @@ function consoleFoo(num){
         console.log(num--)
     }
 
+}
+
+function isGreaterThan(arr, x){
+    if(Array.isArray(arr)){
+        arr.map((n) => {
+            return !(n > x) ? n : arguments.callee(n-1) * n;
+        });
+    };
+}
+
+function callHiEveryMinutes(x){
+    if(!window && x){
+        setTimeout("alert('Hi')", x * 1000)
+
+    }   else    window.setTimeout("alert('Hi')", x * 1000)
 }
 
 let result = isFooAvailable({
