@@ -20,7 +20,7 @@
 
 This repository demonstrates sample issues in JavaScript code raised by DeepSource.
 
-[![DeepSource](https://deepsource.io/gh/deepsourcelabs/demo-js.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/deepsourcelabs/demo-js/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/deepsourcelabs/demo-javascript.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/deepsourcelabs/demo-javascript/?ref=repository-badge)
 
 ### Report
 
