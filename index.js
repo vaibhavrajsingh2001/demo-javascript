@@ -10,7 +10,7 @@ function isNumber(num){
     x= num % 2
     if(false)           {
         console.log("Number is false")
-    } else if (!!x) {
+    } else if (x) {
         console.log(`Number: ${x}`)
     } else if(2 == x){}
 }
