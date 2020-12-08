@@ -1,0 +1,7 @@
+{
+    "extends": "eslint:recommended",
+    "rules": {
+        "yoda": "error",
+        "wrap-iife": "error"
+    }
+}
