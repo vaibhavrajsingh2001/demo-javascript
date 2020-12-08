@@ -62,3 +62,12 @@ let result = isFooAvailable({
     'bar': 'bar',
     'z': 'z'
 })
+
+(function(){ }(), 0);
+
+function checkYoda(){
+    let yoda = true;
+    if(true == yoda){
+        console.log("I am yoda")
+    }
+}
