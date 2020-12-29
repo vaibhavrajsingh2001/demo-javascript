@@ -3,24 +3,31 @@ import { Component, Injectable, OnInit } from '@angular/core';
 @Component({
   selector: 'app-lifecycle',
   templateUrl: './lifecycle.component.html',
-  styleUrls: ['./lifecycle.component.css']
+  styleUrls: ['./lifecycle.component.css'],
 })
-
 @Injectable()
 export class LifecycleComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {}
 
-  ngAfterViewInit() { console.log('ngAfterViewInit'); }
+  ngAfterViewInit() {
+    console.log('ngAfterViewInit');
+  }
 
-  ngAfterContentChecked() { console.log('AfterContentChecked'); }
+  ngAfterContentChecked() {
+    console.log('AfterContentChecked');
+  }
 
-  ngAfterContentInit() { console.log('ngAfterContentInit'); }
+  ngAfterContentInit() {
+    console.log('ngAfterContentInit');
+  }
 
-  ngDoCheck() { console.log('ngDoCheck'); }
+  ngDoCheck() {
+    console.log('ngDoCheck');
+  }
 
-  ngOnChanges() { console.log('ngOnChanges'); }
-
+  ngOnChanges() {
+    console.log('ngOnChanges');
+  }
 }

@@ -1,13 +1,12 @@
 import { ContentChildren, ViewChildren } from '@angular/core';
-import { Input, Output, HostListener  } from '@angular/core'
-import { ViewChild, ViewEncapsulation, EventEmitter } from "@angular/core";
-import { OnInit, PipeTransform } from "@angular/core";
+import { Input, Output, HostListener } from '@angular/core';
+import { ViewChild, ViewEncapsulation, EventEmitter } from '@angular/core';
+import { OnInit, PipeTransform } from '@angular/core';
 import { Component, Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-
 @Component({
   encapsulation: ViewEncapsulation.None,
   selector: 'app-home',
@@ -17,29 +16,29 @@ import { Component, Injectable } from '@angular/core';
     contentChild: new ContentChild(ChildDirective),
     contentChildren: new ContentChildren(ChildDirective),
     viewChild: new ViewChild(ChildDirective),
-    viewChildren: new ViewChildren(ChildDirective)
-  }
+    viewChildren: new ViewChildren(ChildDirective),
+  },
 })
-
 export class TestComponent implements OnInit, PipeTransform {
   private _label: string;
   private _moveCount: number;
 
-  constructor() { }
+  constructor() {}
 
   @Input()
-  @Output() testEmitter = new EventEmitter<string>();
+  @Output()
+  testEmitter = new EventEmitter<string>();
 
   ngOnInit(): void {}
   ngOnDestroy() {}
 
   @ViewChild(Pane)
-  set label(value: Pane){
-    this._label = value
+  set label(value: Pane) {
+    this._label = value;
   }
 
   @HostListener('mouseover')
   mouseOver() {
-    this._moveCount = this._moveCount + 1
+    this._moveCount = this._moveCount + 1;
   }
 }

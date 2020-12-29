@@ -16,13 +16,10 @@ import { LifecycleExplicitComponent } from './lifecycle-explicit/lifecycle-expli
     LifecycleComponent,
     LifecycleNgModuleComponent,
     LifecyclePipeComponent,
-    LifecycleExplicitComponent
+    LifecycleExplicitComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

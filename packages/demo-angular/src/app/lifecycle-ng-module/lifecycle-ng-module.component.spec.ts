@@ -8,9 +8,8 @@ describe('LifecycleNgModuleComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LifecycleNgModuleComponent ]
-    })
-    .compileComponents();
+      declarations: [LifecycleNgModuleComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
