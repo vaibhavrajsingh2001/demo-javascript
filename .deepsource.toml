@@ -8,6 +8,9 @@ enabled = true
   environment = ['nodejs']
   plugins = ['react', 'angular']
   dialect = 'flow'
+  dependency_file_paths = [
+    'packages/demo-angular/'
+  ]
 
 [[transformers]]
     name = "prettier"
