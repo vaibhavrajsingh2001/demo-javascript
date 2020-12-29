@@ -9,33 +9,32 @@
     v-if="!visible"
     is="header"
     @click="functionCall"
-    v-text="textContent">
-  </div>
-   <div v-bind:foo="'bar'"/>
+    v-text="textContent"
+  ></div>
+  <div v-bind:foo="'bar'" />
 </template>
 
 <script>
 export default {
-    name : 'header',
-    data() {
-        return {
-            msg: 'Welcome to DeepSource Demo Vue'
-        }
+  name: "header",
+  data() {
+    return {
+      msg: "Welcome to DeepSource Demo Vue",
+    };
+  },
+  props: {
+    myProp: "Number",
+    anotherProp: ["Number", "String"],
+    myFieldWithBadType: {
+      type: "Object",
+      default: function () {
+        return {};
+      },
     },
-    props: {
-        myProp: "Number",
-        anotherProp: ["Number", "String"],
-        myFieldWithBadType: {
-            type: "Object",
-            default: function() {
-                return {}
-            },
-        },
-        myOtherFieldWithBadType: {
-            type: "Number",
-            default: 1,
-        },
-    }
-}
+    myOtherFieldWithBadType: {
+      type: "Number",
+      default: 1,
+    },
+  },
+};
 </script>
-
