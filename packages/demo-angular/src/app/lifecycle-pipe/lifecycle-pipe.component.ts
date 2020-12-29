@@ -2,30 +2,38 @@ import { Component, OnInit, Pipe } from '@angular/core';
 
 @Component({
   templateUrl: './lifecycle-pipe.component.html',
-  styleUrls: ['./lifecycle-pipe.component.css']
+  styleUrls: ['./lifecycle-pipe.component.css'],
 })
-
 @Pipe({
   name: 'testComponent',
-  pure: false
+  pure: false,
 })
 export class LifecyclePipeComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {}
 
-  ngAfterContentInit() { console.log('ngAfterContentInit'); }
+  ngAfterContentInit() {
+    console.log('ngAfterContentInit');
+  }
 
-  ngAfterContentChecked() { console.log('ngAfterContentChecked'); }
+  ngAfterContentChecked() {
+    console.log('ngAfterContentChecked');
+  }
 
-  ngAfterViewChecked() { console.log('ngAfterViewChecked'); }
+  ngAfterViewChecked() {
+    console.log('ngAfterViewChecked');
+  }
 
-  ngAfterViewInit() { console.log('ngAfterViewInit'); }
+  ngAfterViewInit() {
+    console.log('ngAfterViewInit');
+  }
 
-  ngDoCheck() { console.log('ngDoCheck'); }
+  ngDoCheck() {
+    console.log('ngDoCheck');
+  }
 
-  ngOnChanges() { console.log('ngOnChanges'); }
-
-
+  ngOnChanges() {
+    console.log('ngOnChanges');
+  }
 }
