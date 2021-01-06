@@ -6,8 +6,11 @@ enabled = true
 
   [analyzers.meta]
   environment = ['nodejs']
-  plugins = ['react']
+  plugins = ['react', 'angular']
   dialect = 'flow'
+  dependency_file_paths = [
+    'packages/demo-angular/'
+  ]
 
 [[transformers]]
     name = "prettier"
