@@ -2,8 +2,8 @@ import { Component } from "react";
 
 type Props = {
   title: string,
-  isHero: boolean
-}
+  isHero: boolean,
+};
 
 class Hello extends Component<Props> {
   constructor(props) {
@@ -20,7 +20,5 @@ class Hello extends Component<Props> {
     );
   }
 }
-
-
 
 export default Hello;
