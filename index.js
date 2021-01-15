@@ -31,7 +31,7 @@ function isFooAvailable(obj){
 }
 
 function findFooBar(){
-    var re = /=foo   bar/;
+    var re = /=foo {3}bar/;
     re.test('foobar')
 }
 
