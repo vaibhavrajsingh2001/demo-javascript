@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1 v-html="msg"></h1>
     <p>{{ "Welcome to DeepSource World" }}</p>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -58,12 +58,12 @@
         <a
           href="https://github.com/vuejs/vue-devtools#vue-devtools"
           target="_blank"
-          rel="noopener"
+          
           >vue-devtools</a
         >
       </li>
       <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
+        <a href="https://vue-loader.vuejs.org" target="_blank" 
           >vue-loader</a
         >
       </li>
@@ -71,7 +71,7 @@
         <a
           href="https://github.com/vuejs/awesome-vue"
           target="_blank"
-          rel="noopener"
+          
           >awesome-vue</a
         >
       </li>
