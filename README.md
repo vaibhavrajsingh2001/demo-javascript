@@ -24,7 +24,7 @@ This repository demonstrates sample issues in JavaScript code raised by DeepSour
 
 ### Report
 
-[https://deepsource.io/gh/deepsourcelabs/demo-js/issues/](https://deepsource.io/gh/deepsourcelabs/demo-js/issues/)
+[https://deepsource.io/gh/deepsourcelabs/demo-javascript/issues/](https://deepsource.io/gh/deepsourcelabs/demo-javascript/issues/)
 
 ### Documentation
 
