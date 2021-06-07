@@ -71,3 +71,15 @@ function checkYoda(){
         console.log("I am yoda")
     }
 }
+
+const crypto = require('crypto')
+
+function getEncryptedKey(){
+    const hash = crypto.createCipheriv('aes-192-ecb', Buffer.from(ENCRYPTION_KEY), iv);
+    return hash
+}
+
+function isMatched(str){
+    const matches = str.match(/hasTheMagic/)[0] ? process(str) : null;
+    return matches
+}
