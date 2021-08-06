@@ -75,7 +75,7 @@ function checkYoda(){
 const crypto = require('crypto')
 
 function getEncryptedKey(){
-    const hash = crypto.createCipheriv('aes-192-ecb', Buffer.from(ENCRYPTION_KEY), iv);
+    const hash = crypto.createCipheriv('aes-256-cbc', Buffer.from(ENCRYPTION_KEY), iv);
     return hash
 }
 
