@@ -11,6 +11,7 @@ enabled = true
   dependency_file_paths = [
     'packages/demo-react/',
     'packages/demo-vue/',
+    'packages/demo-nuxt/',
     'packages/demo-typescript/'
   ]
 
