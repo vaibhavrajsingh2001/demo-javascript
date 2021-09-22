@@ -52,20 +52,36 @@ function isGreaterThan(arr, x){
 }
 
 function callHiEveryMinutes(x){
+    
+    
+    
+    
+    
     if(!window && x){
-        setTimeout("alert('Hi')", x * 1000)
+        setTimeout(
+            
+            
+            
+            "alert('Hi')", x * 1000             )
 
     }   else    window.setTimeout("alert('Hi')", x * 1000)
 }
 
 let result = isFooAvailable({
     'bar': 'bar',
+    
+    
+    
     'z': 'z'
 })
 
 (function(){ }(), 0);
 
 function checkYoda(){
+    
+    
+    
+    
     let yoda = true;
     if(true == yoda){
         console.log("I am yoda")
