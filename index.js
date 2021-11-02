@@ -1,3 +1,4 @@
+// This is a comment
 function isEven(x){
     if(x = 2 || x % 2 == 0){
         console.log(`${x} is even`)
@@ -5,6 +6,9 @@ function isEven(x){
     console.log(`${x} is odd`)
 }
 
+/* 
+This is a comment
+*/
 function isNumber(num){
     let x = undefined
     x= num % 2
@@ -14,6 +18,8 @@ function isNumber(num){
         console.log(`Number: ${x}`)
     } else if(2 == x){}
 }
+
+// This is a comment
 
 function isTruthy(x) {
     debugger;
@@ -42,6 +48,10 @@ function consoleFoo(num){
     }
 
 }
+
+/* 
+This is a comment
+*/
 
 function isGreaterThan(arr, x){
     if(Array.isArray(arr)){
