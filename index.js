@@ -1,15 +1,9 @@
-/**
- * This is a func declr
- */
 function isEven(x) {
   if ((x = 2 || x % 2 == 0)) {
     console.log(`${x} is even`);
   } else console.log(`${x} is odd`);
 }
 
-/**
- * This is another func declr
- */
 function isNumber(num) {
   let x = undefined;
   x = num % 2;
