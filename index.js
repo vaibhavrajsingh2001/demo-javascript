@@ -70,6 +70,9 @@ function checkYoda() {
 
 const crypto = require("crypto");
 
+/*
+  comment
+*/
 function getEncryptedKey() {
   const hash = crypto.createCipheriv(
     "aes-192-ecb",
