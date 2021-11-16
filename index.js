@@ -85,8 +85,8 @@ function isMatched(str) {
 }
 
 /**
-* comment
-*/
+ * comment
+ */
 function docTest() {
   let a = 1;
   return a;
