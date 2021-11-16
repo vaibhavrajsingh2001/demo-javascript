@@ -91,3 +91,30 @@ function docTest() {
   let a = 1;
   return a;
 }
+
+const b = function(){
+  const bb = 1;
+  return bb;
+} 
+
+const c = () => c * 2;
+
+class D {
+  constructor() {
+    this.d = 2;
+  }
+  
+  func() {
+    return this.d;
+  }
+}
+
+const e = class {
+  constructor() {
+    this.d = 2;
+  }
+  
+  func() {
+    return this.d;
+  }
+}
