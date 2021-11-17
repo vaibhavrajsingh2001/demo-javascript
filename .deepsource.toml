@@ -15,7 +15,7 @@ enabled = true
     'packages/demo-nuxt/',
     'packages/demo-typescript/'
   ]
-  skip_doc_coverage = ['function-declaration', 'function-expression', 'arrow-function-expression', 'class-declaration', 'class-expression', 'method-definition']
+  skip_doc_coverage = ['class-declaration']
 
 [[transformers]]
     name = "prettier"
