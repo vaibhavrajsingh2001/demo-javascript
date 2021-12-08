@@ -40,7 +40,7 @@ export function IndexPage() {
 export const Home = () => {
   return (
     <div class="container">
-      <script src="https://third-party-script.js"></script>
+      <script src="https://third-party-script.js" />
       <div>Home Page</div>
     </div>
   )
