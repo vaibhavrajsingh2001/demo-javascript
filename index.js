@@ -87,3 +87,5 @@ function isMatched(str) {
 function commentCheck(){
   console.log("no comment")
 }
+
+function dummy(){console.log("dummy")}
