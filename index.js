@@ -84,10 +84,10 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
 
-function dummy(){
-  console.log("dummy")
+function dummy() {
+  console.log("dummy");
 }
