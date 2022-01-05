@@ -88,7 +88,7 @@ function commentCheck() {
   console.log("no comment");
 }
 
-function x(a){
+function x(a) {
   if (a == 0) {
     return 0;
   } else if (a == 1) {
