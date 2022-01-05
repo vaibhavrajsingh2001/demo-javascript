@@ -87,3 +87,49 @@ function isMatched(str) {
 function commentCheck(){
   console.log("no comment")
 }
+
+function a(x) {
+    if (true) {
+        return x;
+    } else if (false) {
+        return x+1;
+    } else if {
+        return 4; // 3rd path
+    } else if {
+        return 4; // 4 path
+    } else if {
+        return 4; // 5 path
+    } else if {
+        return 4; // 6 path
+    } else if {
+        return 4; // 7 path
+    } else if {
+        return 4; // 8 path
+    } else if {
+        return 4; // 9 path
+    } else if {
+        return 4; // 10 path
+    } else if {
+        return 4; // 11 path
+    } else if {
+        return 4; // 12 path
+    } else if {
+        return 4; // 13 path
+    } else if {
+        return 4; // 14 path
+    } else if {
+        return 4; // 15 path
+    } else if {
+        return 4; // 16 path
+    } else if {
+        return 4; // 17 path
+    } else if {
+        return 4; // 18 path
+    } else if {
+        return 4; // 19 path
+    } else if {
+        return 4; // 20 path
+    } else {
+        return 4; // 21 path
+    }
+}
