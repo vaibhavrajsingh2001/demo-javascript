@@ -1,6 +1,11 @@
 const express = require('express'); 
 const request = require('request'); // request is deprecated. Prefer using `axios` instead
 const helmet = require('helmet')
+const serialize = require('node-serialize')
+const { parse } = require('teleport-javascript')
+
+const content = serialize.unserialize("{}")
+const parsed = parse("{}")
 
 
 const app = express(); // Sensitive
