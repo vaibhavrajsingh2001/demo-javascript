@@ -1,3 +1,5 @@
+const x = /^(a|a)*$/;
+
 function isEven(x) {
   if ((x = 2 || x % 2 == 0)) {
     console.log(`${x} is even`);
