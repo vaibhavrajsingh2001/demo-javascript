@@ -87,3 +87,11 @@ function isMatched(str) {
 function commentCheck(){
   console.log("no comment")
 }
+
+const obj = {
+  key: () => console.log("e")
+}
+
+const obj1 = {
+  key: () => console.log("e"),
+}
