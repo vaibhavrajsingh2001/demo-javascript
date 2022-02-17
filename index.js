@@ -88,12 +88,12 @@ function commentCheck(some) {
   console.log("no comment");
 }
 
-function foo (bar, baz, qux) { // four parameters, may be too many
+function foo(bar, baz, qux) {
+  // four parameters, may be too many
   if (true) {
     if (true) {
       if (true) {
         if (true) {
-          
         }
       }
     }
@@ -103,9 +103,9 @@ function foo (bar, baz, qux) { // four parameters, may be too many
     commentCheck(() => {
       commentCheck(() => {
         commentCheck(() => {
-          console.log("Test")
-        })
-      })
-    })
-  })
+          console.log("Test");
+        });
+      });
+    });
+  });
 }
