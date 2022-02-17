@@ -18,6 +18,13 @@ enabled = true
 
     [analyzers.meta.complexity_analysis]
     enabled = true
+      [analyzers.meta.complexity_analysis.options]
+      cyclomatic_complexity = 5
+      max_file_lines = 100
+      max_function_lines = 10
+      max_block_depth = 3
+      max_function_params = 3
+      max_nested_callbacks = 3
 
 [[transformers]]
     name = "prettier"
