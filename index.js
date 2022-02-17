@@ -84,10 +84,11 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
 
-function foo (bar, baz, qux, qxx) { // four parameters, may be too many
+function foo(bar, baz, qux, qxx) {
+  // four parameters, may be too many
   doSomething();
 }
