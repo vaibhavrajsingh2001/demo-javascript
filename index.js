@@ -84,17 +84,18 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(some){
-  console.log("no comment")
+function commentCheck(some) {
+  console.log("no comment");
 }
 
-function foo (bar, baz, qux, qxx) { // four parameters, may be too many
+function foo(bar, baz, qux, qxx) {
+  // four parameters, may be too many
   if (true) {
     if (true) {
       if (true) {
         if (true) {
           if (true) {
-            console.log("Test")
+            console.log("Test");
           }
         }
       }
@@ -106,7 +107,7 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
       if (true) {
         if (true) {
           if (true) {
-            console.log("Test")
+            console.log("Test");
           }
         }
       }
@@ -118,7 +119,7 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
       if (true) {
         if (true) {
           if (true) {
-            console.log("Test")
+            console.log("Test");
           }
         }
       }
@@ -130,7 +131,7 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
       if (true) {
         if (true) {
           if (true) {
-            console.log("Test")
+            console.log("Test");
           }
         }
       }
@@ -142,7 +143,7 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
       if (true) {
         if (true) {
           if (true) {
-            console.log("Test")
+            console.log("Test");
           }
         }
       }
@@ -160,18 +161,18 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
                   commentCheck(() => {
                     commentCheck(() => {
                       commentCheck(() => {
-                        console.log("Test")
-                      })
-                    })
-                  })
-                })
-              })
-            })
-          })
-        })
-      })
-    })
-  })
+                        console.log("Test");
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
 
   commentCheck(() => {
     commentCheck(() => {
@@ -184,18 +185,18 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
                   commentCheck(() => {
                     commentCheck(() => {
                       commentCheck(() => {
-                        console.log("Test")
-                      })
-                    })
-                  })
-                })
-              })
-            })
-          })
-        })
-      })
-    })
-  })
+                        console.log("Test");
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
 
   commentCheck(() => {
     commentCheck(() => {
@@ -208,18 +209,18 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
                   commentCheck(() => {
                     commentCheck(() => {
                       commentCheck(() => {
-                        console.log("Test")
-                      })
-                    })
-                  })
-                })
-              })
-            })
-          })
-        })
-      })
-    })
-  })
+                        console.log("Test");
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
 
   commentCheck(() => {
     commentCheck(() => {
@@ -232,18 +233,18 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
                   commentCheck(() => {
                     commentCheck(() => {
                       commentCheck(() => {
-                        console.log("Test")
-                      })
-                    })
-                  })
-                })
-              })
-            })
-          })
-        })
-      })
-    })
-  })
+                        console.log("Test");
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
 
   commentCheck(() => {
     commentCheck(() => {
@@ -256,18 +257,18 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
                   commentCheck(() => {
                     commentCheck(() => {
                       commentCheck(() => {
-                        console.log("Test")
-                      })
-                    })
-                  })
-                })
-              })
-            })
-          })
-        })
-      })
-    })
-  })
+                        console.log("Test");
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
 
   commentCheck(() => {
     commentCheck(() => {
@@ -280,18 +281,18 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
                   commentCheck(() => {
                     commentCheck(() => {
                       commentCheck(() => {
-                        console.log("Test")
-                      })
-                    })
-                  })
-                })
-              })
-            })
-          })
-        })
-      })
-    })
-  })
+                        console.log("Test");
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
 
   commentCheck(() => {
     commentCheck(() => {
@@ -304,16 +305,16 @@ function foo (bar, baz, qux, qxx) { // four parameters, may be too many
                   commentCheck(() => {
                     commentCheck(() => {
                       commentCheck(() => {
-                        console.log("Test")
-                      })
-                    })
-                  })
-                })
-              })
-            })
-          })
-        })
-      })
-    })
-  })
+                        console.log("Test");
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
 }
