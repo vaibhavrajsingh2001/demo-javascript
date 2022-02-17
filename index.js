@@ -88,7 +88,7 @@ function commentCheck(some) {
   console.log("no comment");
 }
 
-function foo(bar, baz, qux) {
+function foo(bar, baz, qux, dog) {
   // four parameters, may be too many
   if (true) {
     if (true) {

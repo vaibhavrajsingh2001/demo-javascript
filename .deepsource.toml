@@ -18,7 +18,7 @@ enabled = true
   complexity_analysis = true
   
     [analyzers.meta.complexity_options]
-    cyclomatic_complexity = 5
+    cyclomatic_complexity = 2
     max_file_lines = 100
     max_function_lines = 10
     max_block_depth = 3
