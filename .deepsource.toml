@@ -16,6 +16,9 @@ enabled = true
     'packages/demo-typescript/'
   ]
 
+    [analyzers.meta.complexity_analysis]
+    enabled = true
+
 [[transformers]]
     name = "prettier"
     enabled = true
