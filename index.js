@@ -87,3 +87,7 @@ function isMatched(str) {
 function commentCheck(){
   console.log("no comment")
 }
+
+function foo (bar, baz, qux, qxx) { // four parameters, may be too many
+    doSomething();
+}
