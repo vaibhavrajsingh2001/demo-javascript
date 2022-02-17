@@ -84,11 +84,236 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck() {
-  console.log("no comment");
+function commentCheck(some){
+  console.log("no comment")
 }
 
-function foo(bar, baz, qux, qxx) {
-  // four parameters, may be too many
-  doSomething();
+function foo (bar, baz, qux, qxx) { // four parameters, may be too many
+  if (true) {
+    if (true) {
+      if (true) {
+        if (true) {
+          if (true) {
+            console.log("Test")
+          }
+        }
+      }
+    }
+  }
+
+  if (true) {
+    if (true) {
+      if (true) {
+        if (true) {
+          if (true) {
+            console.log("Test")
+          }
+        }
+      }
+    }
+  }
+
+  if (true) {
+    if (true) {
+      if (true) {
+        if (true) {
+          if (true) {
+            console.log("Test")
+          }
+        }
+      }
+    }
+  }
+
+  if (true) {
+    if (true) {
+      if (true) {
+        if (true) {
+          if (true) {
+            console.log("Test")
+          }
+        }
+      }
+    }
+  }
+
+  if (true) {
+    if (true) {
+      if (true) {
+        if (true) {
+          if (true) {
+            console.log("Test")
+          }
+        }
+      }
+    }
+  }
+
+  commentCheck(() => {
+    commentCheck(() => {
+      commentCheck(() => {
+        commentCheck(() => {
+          commentCheck(() => {
+            commentCheck(() => {
+              commentCheck(() => {
+                commentCheck(() => {
+                  commentCheck(() => {
+                    commentCheck(() => {
+                      commentCheck(() => {
+                        console.log("Test")
+                      })
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })
+      })
+    })
+  })
+
+  commentCheck(() => {
+    commentCheck(() => {
+      commentCheck(() => {
+        commentCheck(() => {
+          commentCheck(() => {
+            commentCheck(() => {
+              commentCheck(() => {
+                commentCheck(() => {
+                  commentCheck(() => {
+                    commentCheck(() => {
+                      commentCheck(() => {
+                        console.log("Test")
+                      })
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })
+      })
+    })
+  })
+
+  commentCheck(() => {
+    commentCheck(() => {
+      commentCheck(() => {
+        commentCheck(() => {
+          commentCheck(() => {
+            commentCheck(() => {
+              commentCheck(() => {
+                commentCheck(() => {
+                  commentCheck(() => {
+                    commentCheck(() => {
+                      commentCheck(() => {
+                        console.log("Test")
+                      })
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })
+      })
+    })
+  })
+
+  commentCheck(() => {
+    commentCheck(() => {
+      commentCheck(() => {
+        commentCheck(() => {
+          commentCheck(() => {
+            commentCheck(() => {
+              commentCheck(() => {
+                commentCheck(() => {
+                  commentCheck(() => {
+                    commentCheck(() => {
+                      commentCheck(() => {
+                        console.log("Test")
+                      })
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })
+      })
+    })
+  })
+
+  commentCheck(() => {
+    commentCheck(() => {
+      commentCheck(() => {
+        commentCheck(() => {
+          commentCheck(() => {
+            commentCheck(() => {
+              commentCheck(() => {
+                commentCheck(() => {
+                  commentCheck(() => {
+                    commentCheck(() => {
+                      commentCheck(() => {
+                        console.log("Test")
+                      })
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })
+      })
+    })
+  })
+
+  commentCheck(() => {
+    commentCheck(() => {
+      commentCheck(() => {
+        commentCheck(() => {
+          commentCheck(() => {
+            commentCheck(() => {
+              commentCheck(() => {
+                commentCheck(() => {
+                  commentCheck(() => {
+                    commentCheck(() => {
+                      commentCheck(() => {
+                        console.log("Test")
+                      })
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })
+      })
+    })
+  })
+
+  commentCheck(() => {
+    commentCheck(() => {
+      commentCheck(() => {
+        commentCheck(() => {
+          commentCheck(() => {
+            commentCheck(() => {
+              commentCheck(() => {
+                commentCheck(() => {
+                  commentCheck(() => {
+                    commentCheck(() => {
+                      commentCheck(() => {
+                        console.log("Test")
+                      })
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })
+      })
+    })
+  })
 }
