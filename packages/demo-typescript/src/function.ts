@@ -2,7 +2,7 @@ class Calculator {
   constructor(public a: unknown, private b: any, private c: any) {
     this.a = a;
     this.b = b;
-    this.c = c
+    this.c = c;
   }
 
   sum(a: any = 0, b: number) {
