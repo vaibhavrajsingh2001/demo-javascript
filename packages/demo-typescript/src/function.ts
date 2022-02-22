@@ -1,4 +1,4 @@
-class Calculator {
+class Calculator = {
   constructor(public a: unknown, private b: any, private c: any) {
     this.a = a;
     this.b = b;
