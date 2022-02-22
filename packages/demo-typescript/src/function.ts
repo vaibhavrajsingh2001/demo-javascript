@@ -9,7 +9,7 @@ class Calculator {
     return a + b;
   }
 
-  getPercentage(c?: any, a: unknown, b = 0) {
+  getPercentage(c?: any, a: unknown, b = 1) {
     if (c) {
       // @ts-ignore
       return (a * b * 100) / c;
