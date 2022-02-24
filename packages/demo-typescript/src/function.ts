@@ -5,7 +5,7 @@ class Calculator {
     this.c = c;
   }
 
-  sum(a: any = 0, b: number, c: number = 0) {
+  sum(a: any = 0, b: number) {
     return a + b;
   }
 
