@@ -1,3 +1,3 @@
-import jwt from "jsonwebtoken";
+import jwt1 from "jsonwebtoken";
 
 const token = jwt.sign({ user: "xyz" }, key);
