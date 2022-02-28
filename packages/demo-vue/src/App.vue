@@ -26,7 +26,7 @@ export default class IssuePriorityFilter extends mixins(RepoDetailMixin) {
   /**
    * fetch hook for vue component
    *
-   * @returns {Promise<void>}
+   * @returns
    */
   async fetch() {
     await this.fetchAvailableAnalyzers(this.baseRouteParams);
