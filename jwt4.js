@@ -1,3 +1,3 @@
-import { sign } from "jsonwebtoken";
+import { sign as jsonsign } from 'jsonwebtoken'
 
-const token = sign({ user: "xyz" }, key, { algorithm: "none" });
+const token = jsonsign({ user: 'xyz' }, key, { algorithm: 'none' });
