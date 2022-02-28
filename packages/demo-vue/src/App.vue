@@ -19,8 +19,8 @@ import HelloWorld from "./components/HelloWorld.vue";
     ZMenu,
     ZMenuItem,
     ZBadge,
-    AnalyzerLogo
-  }
+    AnalyzerLogo,
+  },
 })
 export default class IssuePriorityFilter extends mixins(RepoDetailMixin) {
   /**
@@ -29,7 +29,7 @@ export default class IssuePriorityFilter extends mixins(RepoDetailMixin) {
    * @returns {Promise<void>}
    */
   async fetch() {
-    await this.fetchAvailableAnalyzers(this.baseRouteParams)
+    await this.fetchAvailableAnalyzers(this.baseRouteParams);
   }
 }
 </script>
