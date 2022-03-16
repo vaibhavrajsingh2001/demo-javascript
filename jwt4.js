@@ -1,1 +1,3 @@
-const token = jsonsign({ user: "wxyz" }, key, { algorithm: "HS256" });
+import { sign } from 'jsonwebtoken'
+
+const token = sign({ user: 'xyz' }, key, { algorithm: 'none' });
