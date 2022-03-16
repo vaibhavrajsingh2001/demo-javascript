@@ -1,3 +1,3 @@
-const { sign } = require('jsonwebtoken')
+const { sign } = require("jsonwebtoken");
 
-const token = sign({ user: 'xyz' }, key, { algorithm: 'none' });
+const token = sign({ user: "xyz" }, key, { algorithm: "none" });
