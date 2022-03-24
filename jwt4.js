@@ -8,8 +8,8 @@ const options = {
     maxVersion: 'TLSv1.2'
 }
 
-const connection = tls.connect(443, 'www.abc.com', options, () => { })
+const connection = connect(443, 'www.abc.com', options, () => { })
 
-const req = https.request(options, res => {  })
+const req = request(options, res => {  })
 
-const socket = request.get(options)
+const socket = get(options)
