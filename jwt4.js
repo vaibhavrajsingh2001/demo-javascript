@@ -8,7 +8,7 @@ const options = {
   maxVersion: "TLSv1.2",
 };
 
-const connection = connect(443, 'www.abcd.com', options, () => { })
+const connection = connect(443, "www.abcd.com", options, () => {});
 
 const req = request(options, (res) => {});
 
