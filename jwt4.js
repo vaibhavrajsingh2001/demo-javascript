@@ -1,11 +1,8 @@
-import { connect } from "tls";
-import { request } from "https";
-import { get } from "request";
+import { connect as tlsConnect } from "tls";
+import { request as httpsRequest } from "https";
+import { get as requestGet } from "request";
 
-const connection = connect(
-  443,
-  "www.abcd.com",
-  {
+const connection = tlsConnect(443, 'www.abcd.com', {
     secureProtocol: "TLSv1_method", // insecure version
     minVersion: "TLSv1.1", // insecure version
     maxVersion: "TLSv1.2",
@@ -13,8 +10,7 @@ const connection = connect(
   () => {}
 );
 
-const req = request(
-  {
+const req = httpsRequest({
     secureProtocol: "TLSv1_method", // insecure version
     minVersion: "TLSv1.1", // insecure version
     maxVersion: "TLSv1.2",
@@ -22,8 +18,8 @@ const req = request(
   (res) => {}
 );
 
-const socket = get({
-  secureProtocol: "TLSv1_method", // insecure version
-  minVersion: "TLSv1.1", // insecure version
-  maxVersion: "TLSv1.2",
+const socket = requestGet({
+    secureProtocol: "TLSv1_method", // insecure version
+    minVersion: "TLSv1.1", // insecure version
+    maxVersion: "TLSv1.2",
 });

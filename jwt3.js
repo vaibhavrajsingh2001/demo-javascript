@@ -1,6 +1,6 @@
-import tls from "tls";
-import https from "https";
-import request from "request";
+import * as tls from "tls";
+import * as https from "https";
+import * as request from "request";
 
 const connection = tls.connect(
   443,
