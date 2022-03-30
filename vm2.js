@@ -1,2 +1,2 @@
-const nodeVM = require('vm');
+const nodeVM = require("vm");
 const f = (req, res) => nodeVM.run(req.body.code);
