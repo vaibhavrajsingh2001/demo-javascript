@@ -5,6 +5,7 @@ class Calculator {
     }
 
     sum(a: any = 0, b: number ){
+        console.log(a+b)
     return a + b;
 }
 
