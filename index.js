@@ -87,3 +87,14 @@ function isMatched(str) {
 function commentCheck(){
   console.log("no comment")
 }
+
+
+const aa = () => console.log(e)
+
+const bb = () => console.log(e); const a = 1
+
+const aaa = {
+  onChange: (e) => console.log(e),
+}
+
+const bbb = () => { console.log(e) }
