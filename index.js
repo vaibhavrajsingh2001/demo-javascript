@@ -92,3 +92,4 @@ const add = new Function("a", "b", "return a + b");
 console.log("a");
 console.log("a");
 console.log("a");
+console.log("a");
