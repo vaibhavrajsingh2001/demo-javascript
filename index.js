@@ -88,6 +88,6 @@ function commentCheck() {
   console.log("no comment");
 }
 
-const add = new Function('a', 'b', 'return a + b')
-console.log('a')
-console.log('a')
+const add = new Function("a", "b", "return a + b");
+console.log("a");
+console.log("a");
