@@ -39,6 +39,8 @@ function foobar(a: number | number): string | string { return 'a'}
 type customtype11 = number
 const a11: customtype11 | string | customtype11 | string = 'a'
 
+let a111: number & number & string
+
 export interface Foo {
   bar: string;
   quz?: string | undefined;
