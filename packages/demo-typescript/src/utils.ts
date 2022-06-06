@@ -20,6 +20,8 @@ export class MockUser {
   constructor(readonly name: string) {}
 }
 
+// dummy
+
 type A = 1 | 2 | 3 | "3"
 
 type customtype = number
