@@ -87,3 +87,19 @@ function isMatched(str) {
 function commentCheck(){
   console.log("no comment")
 }
+
+crypto.createCipheriv("aes-128-ecb", key, '');
+crypto.pseudoRandomBytes(1);
+
+let match;
+let regexp = RegExp()
+while ((match = regexp.exec(str)) !== null) {}
+
+const matches1 = str.match(/hasTheMagic/) ? process(str) : null;
+const matches2 = !!str.match(/regex/)
+const matches3 = !!/regex/.exec(str)
+const matches4 = /re/.exec(str)[0] ? process(str) : null;
+const matches5 = str.match(/hasTheMagic/)[0] ? process(str) : null
+
+var a;
+const l = 90
