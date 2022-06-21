@@ -5,8 +5,8 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  environment = ['nodejs']
-  plugins = ['react', 'vue']
+  environment = ['nodejs', 'vitest']
+  plugins = ['react']
   dialect = 'flow'
   dependency_file_paths = [
     'packages/demo-react/',
