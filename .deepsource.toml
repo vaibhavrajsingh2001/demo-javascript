@@ -6,6 +6,5 @@ enabled = true
 
   [analyzers.meta]
   plugins = [
-    "react",
-    "vue"
+    "react"
   ]
